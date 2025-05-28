@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "example_sdk_kkiapay",
-    "slug": "example_sdk_kkiapay",
+    "slug": "examplesdkkkiapay7",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.hkafui.example_sdk_kkiapay"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "403946af-5c12-47ca-b95e-f4b9a8edbdbf"
+      }
+    },
+    "owner": "prinxectkh"
   }
 }
